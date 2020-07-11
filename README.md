@@ -18,8 +18,8 @@ En un primer momento, configuraremos el coche para poder ser contolado a través
 Para ello nos serviremos del servicio Webiopi, creando un servidor a través del que activar los GPIO de la Raspberry.
 
 
-
-Proyecto y código basado en el trabajod de:
+## Referencias
+Proyecto y código basado en el trabajo de:
 
 Zheng Wang: https://zhengludwig.wordpress.com/projects/self-driving-rc-car/
 
