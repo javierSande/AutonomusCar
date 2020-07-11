@@ -16,7 +16,7 @@ GPIO.setmode(GPIO.BCM)
 
 # Config vars. These IP and ports must be available in server firewall
 log_enabled = False
-server_ip = 'xxx.xxx.x.xx'
+server_ip = '192.168.1.51'
 server_port_controller = 8002
 server_port_camera = 8001
 

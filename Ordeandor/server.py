@@ -11,7 +11,7 @@ import math
 
 # Config vars
 log_enabled = True
-server_ip = 'xxx.xxx.x.xx' #Your ip
+server_ip = '192.168.1.51' #Your ip
 server_port_camera = 8001
 server_port_controller = 8002
 
