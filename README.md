@@ -1,5 +1,23 @@
 # AutonomusCar
-Coche autónomo a partir de un coche rc y una Raspberry Pi
+
+## Intorducción al proyecto
+El obejetivo del proyecto es crear un coche autónomo capaz de detectar señales y obstáculos, contorlado por una Raspberry Pi 3.
+
+## Hardware
+
+- RaspberryPi 3
+- Driver controlador de motores L298n
+- piCamera
+- Powerbank
+- Coche Rc
+
+## Entrenamiento
+
+En un primer momento, configuraremos el coche para poder ser contolado a través de la RaspberryPi, que recibirá las instrucciones vía Wifi. Al mismo tiempo, la Raspberry compartirá las imágenes en tiempo real y la instrucción asociada a cada una, lo qeu servirá para entrenar la red neuronal.
+
+Para ello nos serviremos del servicio Webiopi, creando un servidor a través del que activar los GPIO de la Raspberry.
+
+
 
 Proyecto y código basado en el trabajod de:
 
