@@ -25,11 +25,11 @@ El obejetivo del proyecto es crear un coche autónomo capaz de detectar señales
 
 Durante el entrenamiento, la RAspberry Pi enviará mediante streaming las imagenes que capte al ordenador principal en tiempo real. Simultáneamente, el usuario el ordenador enviará a la RPi el movimiento deseado y guardará un los bits de imagen y la dirección del coche tomada para ese caso.
 
-Para ello debemos ejecutar el script video_stream.py en la RPi y collectData.py en el ordenador principal.
+Para ello debemos ejecutar el script `video_stream.py` en la RPi y collectData.py en el ordenador principal.
 
 ### Entrenamiento
 
-Para el entrenamiento de la red neuronal usaremos los datos recolectados anteriormente. Para ello debemos ejecutar en el ordenador principal training.py y model.py. Estos programas generaran un modelo que se almacena en formato .xml.
+Para el entrenamiento de la red neuronal usaremos los datos recolectados anteriormente. Para ello debemos ejecutar en el ordenador principal `training.py` y `model.py`. Estos programas generaran un modelo que se almacena en formato `.xml`.
 
 ### Conducción Autónoma
 
