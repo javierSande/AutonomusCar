@@ -3,7 +3,9 @@
 ## Intorducción al proyecto
 El obejetivo del proyecto es crear un coche autónomo capaz de detectar señales y obstáculos, contorlado por una Raspberry Pi 3.
 
-## Hardware
+## Preparación
+
+### Hardware
 
 - RaspberryPi 3
 - Driver controlador de motores L298n
@@ -11,9 +13,26 @@ El obejetivo del proyecto es crear un coche autónomo capaz de detectar señales
 - Powerbank
 - Coche Rc
 
-## Entrenamiento
+### Software
 
-En un primer momento, configuraremos el coche para poder ser contolado a través de la RaspberryPi, que recibirá las instrucciones vía Wifi. Al mismo tiempo, la Raspberry compartirá las imágenes en tiempo real y la instrucción asociada a cada una, lo que servirá para entrenar la red neuronal.
+- Python >3.7
+- OpenCV
+- Gpiozero
+
+## Funcionamiento
+
+### Recolección de datos para el entrenamiento
+
+Durante el entrenamiento, la RAspberry Pi enviará mediante streaming las imagenes que capte al ordenador principal en tiempo real. Simultáneamente, el usuario el ordenador enviará a la RPi el movimiento deseado y guardará un los bits de imagen y la dirección del coche tomada para ese caso.
+
+Para ello debemos ejecutar el script video_stream.py en la RPi y collectData.py en el ordenador principal.
+
+### Entrenamiento
+
+Para el entrenamiento de la red neuronal usaremos los datos recolectados anteriormente. Para ello debemos ejecutar en el ordenador principal training.py y model.py. Estos programas generaran un modelo que se almacena en formato .xml.
+
+### Conducción Autónoma
+
 
 
 ## Referencias
