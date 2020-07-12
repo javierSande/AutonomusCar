@@ -19,6 +19,12 @@ El obejetivo del proyecto es crear un coche autónomo capaz de detectar señales
 - OpenCV
 - Gpiozero
 
+### Preparación
+
+1. Instalar [`gpiozero`](https://gpiozero.readthedocs.io)
+2. Instalar OpenCv
+3. Hacer  ```git clone https://github.com/javierSande/AutonomusCar```
+
 ## Funcionamiento
 
 ### Recolección de datos para el entrenamiento
