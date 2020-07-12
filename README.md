@@ -13,9 +13,7 @@ El obejetivo del proyecto es crear un coche autónomo capaz de detectar señales
 
 ## Entrenamiento
 
-En un primer momento, configuraremos el coche para poder ser contolado a través de la RaspberryPi, que recibirá las instrucciones vía Wifi. Al mismo tiempo, la Raspberry compartirá las imágenes en tiempo real y la instrucción asociada a cada una, lo qeu servirá para entrenar la red neuronal.
-
-Para ello nos serviremos del servicio Webiopi, creando un servidor a través del que activar los GPIO de la Raspberry.
+En un primer momento, configuraremos el coche para poder ser contolado a través de la RaspberryPi, que recibirá las instrucciones vía Wifi. Al mismo tiempo, la Raspberry compartirá las imágenes en tiempo real y la instrucción asociada a cada una, lo que servirá para entrenar la red neuronal.
 
 
 ## Referencias
