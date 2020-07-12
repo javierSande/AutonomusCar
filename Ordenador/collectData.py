@@ -183,7 +183,7 @@ class CollectTrainingData(object):
 
 if __name__ == '__main__':
     # host, port
-    h, p = "192.168.1.100", 8001
+    h, p = "192.168.1.69", 8001
 
     factory = PiGPIOFactory(host='192.168.1.69');
 
