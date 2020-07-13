@@ -41,6 +41,7 @@ Para el entrenamiento de la red neuronal usaremos los datos recolectados anterio
 
 ### Conducción Autónoma
 
+Para la conducción autónoma del coche, debemos ejecutar  `video_stream.py` en la RPi y los scripts `driver.py` y `driverHelp.py` en el ordenador principal, utilizando el `model.xml``generado durante el entrenamiento.
 
 
 ## Referencias
