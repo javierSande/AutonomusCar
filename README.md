@@ -3,7 +3,7 @@
 ## Intorducción al proyecto
 El obejetivo del proyecto es crear un coche autónomo capaz de detectar señales y obstáculos, contorlado por una Raspberry Pi 3.
 
-<img src="https://drive.google.com/file/d/1eTHoCQzw91yEDIM7L9UKhwfxIqKW22Ud/view">
+<img src="https://github.com/javierSande/AutonomusCar/blob/master/coche.jpg?raw=true">
 
 ## Preparación
 
